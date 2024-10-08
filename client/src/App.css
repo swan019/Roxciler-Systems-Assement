@@ -1,0 +1,66 @@
+.table {
+  width: 100%;
+  background-color: rgb(250, 247, 244);
+  border-collapse: collapse; /* Makes the table look cleaner */
+}
+
+.table th, 
+.table td {
+  padding: 8px;
+  text-align: left; 
+  border: 1px solid #d3d3d3; 
+  background-color: #cdb0f800;
+}
+
+
+@media (max-width: 768px) {
+  .table {
+    font-size: 10px; 
+  }
+
+  .table th, 
+  .table td {
+    padding: 6px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .table {
+    font-size: 8px;
+  }
+
+  .table th, 
+  .table td {
+    padding: 4px; 
+  }
+}
+
+a{
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(37, 37, 37);
+}
+
+.stats{
+  background-color: rgb(216, 245, 255);
+  border-radius: 30px;
+}
+
+.month{
+  background-color: rgb(216, 245, 255);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.menu{
+  height: 90%;
+}
+
+
+
